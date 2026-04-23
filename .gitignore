@@ -1,2 +1,11 @@
 # Created by venv; see https://docs.python.org/3/library/venv.html
+# 排除所有 Python 编译缓存
+__pycache__/
+
+# 涉及打包
+*.pyc
+*.pyo
+*.pyd
+
+# 排除你的虚拟环境文件夹
 .venv/
